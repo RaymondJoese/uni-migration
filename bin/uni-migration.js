@@ -7,9 +7,9 @@ const migrate = require('../lib')
 const pkg = require('../package.json')
 
 Program
-  .description('小程序转换工具')
+  .description('Convertor')
   .usage('[options] [input_dir] output_dir')
-  .option('-v, --version', '版本号')
+  .option('-v, --version', 'version')
   .option('--sign', '生成sign目录')
   .option('--stat', '生成dcloud_stat统计代码')
   .option('-p, --platform [platform]', '可选`quickapp`|`uniapp`,目前仅支持小程序向quickapp或uniapp转换')
